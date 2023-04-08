@@ -1,0 +1,8 @@
+python3 Scenario.py 5.6322 58.8593 5.8093 58.9983 SVG maps
+
+
+<viewsettings>
+    <scheme name = "real world" />
+    <delay value = "20" />
+<viewsettings>
+
