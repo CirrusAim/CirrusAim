@@ -112,5 +112,10 @@ file2_destination_path = os.path.join(destination_directory, file2)
 shutil.move(file1_current_path, file1_destination_path)
 shutil.move(file2_current_path, file2_destination_path)
 
+# Generate mobility file
+trace = f"sumo -c output/sumo.sumocfg --fcd-output output/trace.xml"
+subprocess.call(trace.split())
 
 
+mobility = f"python3 /usr/share/sumo/tools/traceExporter.py -i output/trace.xml --ns2mobility-output=output/mobility.tcl"
+subprocess.call(mobility.split())
