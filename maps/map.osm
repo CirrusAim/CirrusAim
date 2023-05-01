@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.60 f4c14d41">
+<osm version="0.6" generator="Overpass API 0.7.59.5 b201bb38">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-04-17T12:21:09Z"/>
+<meta osm_base="2023-04-20T11:02:54Z"/>
 
   <node id="10854183" lat="58.9341817" lon="5.6972113"/>
   <node id="10854184" lat="58.9345365" lon="5.6964326"/>
@@ -4610,6 +4610,8 @@
     <tag k="tourism" v="information"/>
   </node>
   <node id="6308981449" lat="58.9396714" lon="5.7032786">
+    <tag k="board_type" v="plants"/>
+    <tag k="check_date" v="2023-04-19"/>
     <tag k="information" v="board"/>
     <tag k="tourism" v="information"/>
   </node>
@@ -19124,6 +19126,7 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="cycleway" v="crossing"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="91609996">
     <nd ref="1064378654"/>
@@ -22680,6 +22683,7 @@
     <nd ref="6357418896"/>
     <nd ref="5138620977"/>
     <nd ref="6322267137"/>
+    <nd ref="10825078648"/>
     <nd ref="6319996719"/>
     <nd ref="5138620978"/>
     <nd ref="1290613848"/>
@@ -22695,9 +22699,9 @@
     <nd ref="6322267316"/>
     <nd ref="1029133074"/>
     <nd ref="6322267317"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="113839302">
     <nd ref="1029133128"/>
@@ -28298,9 +28302,7 @@
     <nd ref="1117573052"/>
     <nd ref="6351356481"/>
     <nd ref="1290613826"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="cycleway"/>
+    <tag k="highway" v="footway"/>
   </way>
   <way id="678036808">
     <nd ref="1117573052"/>
@@ -28444,6 +28446,7 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="cycleway" v="crossing"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="678307540">
     <nd ref="6351356257"/>
@@ -28461,16 +28464,17 @@
     <nd ref="5931030144"/>
     <nd ref="266571370"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="678307542">
     <nd ref="6351356261"/>
     <nd ref="1290613834"/>
     <nd ref="6351356262"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="cycleway" v="crossing"/>
     <tag k="foot" v="designated"/>
-    <tag k="footway" v="crossing"/>
-    <tag k="highway" v="footway"/>
+    <tag k="highway" v="cycleway"/>
   </way>
   <way id="678307543">
     <nd ref="6351356269"/>
@@ -28491,9 +28495,9 @@
   <way id="678307545">
     <nd ref="6351356267"/>
     <nd ref="266571371"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="678307549">
     <nd ref="5931030142"/>
@@ -28506,7 +28510,9 @@
   <way id="678307550">
     <nd ref="6351356266"/>
     <nd ref="5138620998"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="678307552">
     <nd ref="6351356272"/>
@@ -29440,7 +29446,7 @@
     <nd ref="6357418728"/>
     <nd ref="6351356261"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
+    <tag k="highway" v="cycleway"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="678966625">
@@ -31185,6 +31191,7 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="cycleway" v="crossing"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="758627926">
     <nd ref="7085417687"/>
@@ -37049,9 +37056,9 @@
     <nd ref="1064378600"/>
     <nd ref="7231568211"/>
     <nd ref="1064378654"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="1094566303">
     <nd ref="385887521"/>

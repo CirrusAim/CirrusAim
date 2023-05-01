@@ -29,7 +29,7 @@ Parsing relations from osm-file 'configs/../maps/map.osm' ... done.
    29 types loaded.
    805 edges loaded.
 Proj projection parameters used: '+proj=utm +zone=31 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
-Removing self-loops ... done (2ms).
+Removing self-loops ... done (0ms).
 Joining junction clusters ... 
 Warning: Not joining junctions 7231194188,826970805 (5 incoming edges).
 Warning: Not joining junctions 6348620611,6348620612 (parallel incoming -42118295#7,-678036801#6).
@@ -41,14 +41,14 @@ Warning: Reducing junction cluster 431346083,459432461,459432462,6718390354,6718
 Warning: Reducing junction cluster 267591883,523556730,7747143451,7747143463 (6 incoming edges).
 Warning: Reducing junction cluster 431346085,6301518839,6301518845 (5 incoming edges).
 Warning: Reducing junction cluster 7208934265,7208934274,7208934276,7208934278 (5 incoming edges).
-done (21ms).
+done (9ms).
  Joined 13 junction cluster(s).
 Removing empty nodes and geometry nodes ... done (7ms).
    618 nodes removed.
-Moving network to origin ... done (18ms).
+Moving network to origin ... done (14ms).
 Computing turning directions ... 
 Warning: Ambiguity in turnarounds computation at junction 'cluster_1210802731_459432468'.
-done (1ms).
+done (3ms).
 Assigning nodes to traffic lights ... done (0ms).
 Guessing and setting on-/off-ramps ... done (1ms).
 Warning: Found sharp turn with radius 7.14 at the start of edge '-37089985#0'.
@@ -62,24 +62,24 @@ Warning: Found sharp turn with radius 2.00 at the start of edge '-685899538'.
 Warning: Found sharp turn with radius 2.93 at the start of edge '-88626531#10'.
 Warning: Found sharp turn with radius 4.25 at the end of edge '-88626531#11'.
 Warning: Found angle of 148.71 degrees at edge '61653607', segment 3.
-Sorting nodes' edges ... done (21ms).
-Computing node shapes ... done (30ms).
-Computing edge shapes ... done (13ms).
-Computing node types ... done (1ms).
+Sorting nodes' edges ... done (1ms).
+Computing node shapes ... done (14ms).
+Computing edge shapes ... done (7ms).
+Computing node types ... done (0ms).
 Guessed 0 pedestrian crossings.
-Computing priorities ... done (2ms).
-Computing approached edges ... done (1ms).
+Computing priorities ... done (0ms).
+Computing approached edges ... done (0ms).
 Guessing and setting roundabouts ... 
  Guessed 2 roundabout(s).
-done (0ms).
-Computing approaching lanes ... done (6ms).
-Dividing of lanes on approached lanes ... done (2ms).
-Processing turnarounds ... done (1ms).
-Rechecking of lane endings ... done (0ms).
-Joining traffic light nodes ... done (2ms).
+done (1ms).
+Computing approaching lanes ... done (16ms).
+Dividing of lanes on approached lanes ... done (1ms).
+Processing turnarounds ... done (0ms).
+Rechecking of lane endings ... done (1ms).
+Joining traffic light nodes ... done (1ms).
 Computing traffic light control information ... done (0ms).
-Computing node logics ... done (8ms).
-Computing traffic light logics ... done (2ms).
+Computing node logics ... done (3ms).
+Computing traffic light logics ... done (1ms).
  1 traffic light(s) computed.
 Building inner edges ... 
 Warning: Speed of straight connection '-107257479_0->-341564312#4_0' reduced by 8.20 due to turning radius of 32.35 (length=12.88, angle=38.40).
@@ -90,7 +90,7 @@ Warning: Speed of straight connection '835044900#0_0->-42118295#15_0' reduced by
 Warning: Intersecting left turns at junction 'cluster_447850162_447850163' from lane '875876832_0' and lane '-38076981#2_0' (increase junction radius to avoid this).
 Warning: Intersecting left turns at junction 'cluster_459432461_6718390356' from lane '-714748691_0' and lane '-24467896#4_0' (increase junction radius to avoid this).
 Warning: Intersecting left turns at junction 'cluster_523556698_7221388437' from lane '88626530#1_0' and lane '-38746137#0_0' (increase junction radius to avoid this).
-done (31ms).
+done (16ms).
 -----------------------------------------------------
 Summary:
  Node type statistics:
@@ -104,11 +104,11 @@ Summary:
   Applied offset     : -654493.24,-6535794.19
   Converted boundary : 0.00,0.00,1205.22,689.75
 -----------------------------------------------------
-Writing network ... done (144ms).
+Writing network ... done (124ms).
 Warning: 6 total messages of type: Discarding unusable type '%' (first occurence for edge '%').
 Warning: 21 total messages of type: Discarding way '%' because it has only % node(s)
 Warning: 8 total messages of type: Found sharp turn with radius % at the end of edge '%'.
 Warning: 10 total messages of type: Found sharp turn with radius % at the start of edge '%'.
 Warning: 8 total messages of type: Not joining junctions % (%).
 Warning: 17 total messages of type: Speed of % connection '%' reduced by % due to turning radius of % (length=%, angle=%).
-Warning: 2151 total messages of type: The referenced geometry information (ref='%') is not known
+Warning: 2152 total messages of type: The referenced geometry information (ref='%') is not known

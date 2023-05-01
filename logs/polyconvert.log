@@ -1,6 +1,6 @@
-Parsing network projection from 'output/map.net.xml' ... done (42ms).
-Parsing nodes from osm-file 'configs/../maps/map.osm' ... done (338ms).
-Parsing relations from osm-file 'configs/../maps/map.osm' ... done (171ms).
+Parsing network projection from 'output/map.net.xml' ... done (13ms).
+Parsing nodes from osm-file 'configs/../maps/map.osm' ... done (279ms).
+Parsing relations from osm-file 'configs/../maps/map.osm' ... done (181ms).
 Parsing edges from osm-file 'configs/../maps/map.osm' ... 
 Warning: The referenced geometry information (ref='265997788') is not known
 Warning: The referenced geometry information (ref='5879852172') is not known
@@ -1342,6 +1342,7 @@ Warning: The referenced geometry information (ref='6322267140') is not known
 Warning: The referenced geometry information (ref='6357418896') is not known
 Warning: The referenced geometry information (ref='5138620977') is not known
 Warning: The referenced geometry information (ref='6322267137') is not known
+Warning: The referenced geometry information (ref='10825078648') is not known
 Warning: The referenced geometry information (ref='6319996719') is not known
 Warning: The referenced geometry information (ref='5138620978') is not known
 Warning: The referenced geometry information (ref='6307249827') is not known
@@ -2153,4 +2154,4 @@ Warning: The referenced geometry information (ref='10024988930') is not known
 Warning: The referenced geometry information (ref='385875483') is not known
 Warning: The referenced geometry information (ref='447850160') is not known
 Warning: The referenced geometry information (ref='10747920636') is not known
-done (1301ms).
+done (306ms).

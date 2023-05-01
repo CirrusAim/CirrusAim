@@ -7,3 +7,4 @@ python3 Scenario.py 5.6848 58.9338 5.7054 58.9398 map maps
     <delay value = "20" />
 <viewsettings>
 
+./ns3 run "scratch/ns2-mobility-trace --traceFile=/home/ray/CirrusAim/output/mobility.tcl --nodeNum=42 --duration=1000.0 --logFile=/home/ray/CirrusAim/logs/ns2-mob.log"
