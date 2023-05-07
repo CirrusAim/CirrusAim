@@ -69,7 +69,7 @@ subprocess.call(polyconvert_cmd.split())
 
 # Create the SUMO route file
 route_file = "routes.rou.xml"
-route_gen_cmd = f"python3 /usr/share/sumo/tools/randomTrips.py -n output/map.net.xml -r output/routes.rou.xml --prefix veh_ -e 50"
+route_gen_cmd = f"python3 /usr/share/sumo/tools/randomTrips.py -n output/map.net.xml -r output/routes.rou.xml --prefix veh -e 50"
 subprocess.call(route_gen_cmd.split())
 
 # Create the SUMO configuration file

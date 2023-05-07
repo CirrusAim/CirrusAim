@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.59.5 b201bb38">
+<osm version="0.6" generator="Overpass API 0.7.60 f4c14d41">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-04-20T11:02:54Z"/>
+<meta osm_base="2023-05-07T12:40:52Z"/>
 
   <node id="10854183" lat="58.9341817" lon="5.6972113"/>
   <node id="10854184" lat="58.9345365" lon="5.6964326"/>
@@ -37315,6 +37315,8 @@
     <member type="way" ref="1155729250" role="antenna"/>
     <member type="way" ref="1155729254" role="antenna"/>
     <member type="way" ref="1155729255" role="antenna"/>
+    <member type="way" ref="1167641584" role=""/>
+    <member type="way" ref="685763393" role=""/>
     <tag k="description" v="Remnants of old radio antenna masts"/>
     <tag k="description2" v="http://www.telemuseum.no/joomla/index.php?option=com_content&amp;task=view&amp;id=528&amp;Itemid=155"/>
     <tag k="historic" v="radio"/>
