@@ -1,6 +1,12 @@
 python3 Scenario.py 5.6322 58.8593 5.8093 58.9983 map maps
 python3 Scenario.py 5.6848 58.9338 5.7054 58.9398 map maps
 
+./ns3 build "src/automotive/examples/v2i-areaSpeedAdvisor-80211p"
+
+./ns3 run "src/automotive/examples/v2i-areaSpeedAdvisor-80211p"
+
+
+./ns3 run "src/automotive/examples/v2i-areaSpeedAdvisor-80211p" -- --netstate-dump-file=ray
 
 <viewsettings>
     <scheme name = "real world" />
