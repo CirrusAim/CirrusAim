@@ -14,3 +14,21 @@ python3 Scenario.py 5.6848 58.9338 5.7054 58.9398 map maps
 <viewsettings>
 
 ./ns3 run "scratch/ns2-mobility-trace --traceFile=/home/ray/CirrusAim/output/mobility.tcl --nodeNum=42 --duration=1000.0 --logFile=/home/ray/CirrusAim/logs/ns2-mob.log"
+
+
+Wrapping
+
+architecture 
+Which libraries should be interconnected 
+Basic functionality
+Time is ticking
+CAM DENM implementation--Focus
+Analytics----Metrics
+
+
+User Interface consideration
+User Interface Documentation and snapshot
+
+
+June 6
+Slides for presentation
