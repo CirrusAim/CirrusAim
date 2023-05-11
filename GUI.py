@@ -72,26 +72,11 @@ l.configure(background=BACKGROUND)
 
 #STEP 1: Find a tunnel or tunnel tube ID at Vegkart
 stepOne = Label(topFrame, text="Inject map coordinates [FORMAT: West South East Nort]", bg=BACKGROUND, font=(FONT, FONTSIZE))
-stepOne.grid(row=1, column=0, sticky=W, padx=5, pady=5)
+stepOne.grid(row=1, column=1, sticky=W, padx=5, pady=5)
 stepOne.configure(foreground=FOREGROUND)
 idEntryOne = Entry(topFrame)
-idEntryOne.grid(row=1, column=1, sticky=E, padx=5, pady=5)
+idEntryOne.grid(row=2, column=1, sticky=N, padx=5, pady=5)
 
-
-#STEP 2: Enter the ID found:
-stepTwo = Label(topFrame, text="Step 2: Enter the ID here:", bg=BACKGROUND, font=(FONT, FONTSIZE))
-stepTwo.grid(row=2, column=0, sticky=W, padx=5, pady=5)
-stepTwo.configure(foreground=FOREGROUND)
-idEntry = Entry(topFrame)
-idEntry.grid(row=2, column=1, sticky=E, padx=5, pady=5)
-
-#STEP 3: Enter the tunnel type
-stepThree = Label(topFrame, text="Step 3: What type is the ID?", bg=BACKGROUND, font=(FONT, FONTSIZE))
-stepThree.grid(row=3, column=0, sticky=W, padx=5, pady=5)
-stepThree.configure(foreground=FOREGROUND)
-variable = StringVar(topFrame)
-typeEntry = OptionMenu(topFrame, variable , *simulationTypeOptions)
-typeEntry.grid(row=3, column=1, sticky=N, padx=5, pady=5)
 
 #STEP 4: Run the application
 # stepFour = Label(topFrame, text="Step 4: Simulaten:", bg=BACKGROUND, font=(FONT, FONTSIZE))
@@ -112,14 +97,14 @@ clickToO = Label(bottomFrame, text="Click to open: ", bg=BACKGROUND, fg=FOREGROU
 clickToO.grid(row=1, column=0, padx=5, pady=5, sticky=N)
 
 #TUNNEL FOLDER
-tunnels = Label(bottomFrame, text="Tunnel Model Folder", fg="Blue", font=(FONT, FONTSIZE))
+tunnels = Label(bottomFrame, text="SUMO Output Folder", fg="Blue", font=(FONT, FONTSIZE))
 tunnels.grid(row=1, column=1, sticky=N, padx=5, pady=5)
 tunnels.bind("<Button-1>", lambda e: openFolder(config.EXPORT_PATH))
 tunnels.configure(background="grey")
 tunnels.configure(foreground=LINKLOCAL)
 
 #ANNOTATION FOLDER
-annotations = Label(bottomFrame, text="Annotations Folder", fg="Blue", font=(FONT, FONTSIZE))
+annotations = Label(bottomFrame, text="NS3 Output Folder", fg="Blue", font=(FONT, FONTSIZE))
 annotations.grid(row=1, column=2, sticky=N, padx=5, pady=5)
 annotations.bind("<Button-1>", lambda e: openFolder(config.ANNOTATIONS_PATH))
 annotations.configure(background="grey")
