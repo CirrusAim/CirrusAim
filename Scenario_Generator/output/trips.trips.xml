@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2023-05-12 04:20:06.293694 by randomTrips.py UNKNOWN
-  options: -n output/map.net.xml -r output/routes.rou.xml <doubleminus>prefix veh -e 50
+<!-- generated on 2023-05-18 11:10:27.100035 by randomTrips.py UNKNOWN
+  options: -n /home/ray/ms-van3t/Scenario_Generator//output/map.net.xml -r /home/ray/ms-van3t/Scenario_Generator//output/routes.rou.xml <doubleminus>prefix veh -e 50
 -->
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <trip id="veh0" depart="0.00" from="38746137#3" to="-1153880033"/>

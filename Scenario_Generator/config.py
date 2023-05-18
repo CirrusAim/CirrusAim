@@ -3,24 +3,13 @@ import os
 #MAYA_PATH = 'D:\\Program Files\\Maya2020\\bin\\mayapy.exe'
 APP_ROOT = os.path.dirname(__file__) + '//'
 SCRIPT_PATH = APP_ROOT + 'scene.py'
-MAP_PATH = APP_ROOT + 'maps\\'
-CONFIG_PATH = APP_ROOT + 'configs\\'
-LOG_PATH = APP_ROOT + 'logs\\'
-DATA_PATH = APP_ROOT + 'output\\'
-TYPE_PATH = APP_ROOT + 'typemap\\'
+SCENARIO_PATH = APP_ROOT + 'Scenario_Generator'
+MAPS_PATH = APP_ROOT + 'maps'
+CONFIGS_PATH = APP_ROOT + 'configs'
+LOGS_PATH = APP_ROOT + 'logs'
+OUTPUT_PATH = APP_ROOT + 'output'
+TYPE_PATH = APP_ROOT + 'typemap'
+NS3_PATH = APP_ROOT + 'ms-van3t//ns-3-dev//build//src//automotive//examples//'
+NS3_SCRIPT = NS3_PATH + 'v2x-emulator.cc'
 
 
-
-
-
-# DATA_PATH = EXPORT_PATH + 'data\\'
-# ANNOTATIONS_PATH = EXPORT_PATH + 'annotations\\'
-# OBJECT_POSITIONS_PATH = EXPORT_PATH + 'objectpositions\\'
-# SCENES_PATH = APP_ROOT + 'scenes\\'
-# PROFILES_PATH = APP_ROOT + 'profiles\\data\\'
-# OBJECTS_PATH = APP_ROOT + 'objects\\'
-
-
-
-USE_LOCAL_DATA = False
-GET_ALL = True

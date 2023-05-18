@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-05-12 04:20:05 by Eclipse SUMO polyconvert Version 1.12.0
+<!-- generated on 2023-05-18 11:10:26 by Eclipse SUMO polyconvert Version 1.12.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
 
     <input>
-        <net-file value="output/map.net.xml"/>
-        <osm-files value="configs/../maps/map.osm"/>
+        <net-file value="/home/ray/ms-van3t/Scenario_Generator//output/map.net.xml"/>
+        <osm-files value="/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm"/>
         <osm.keep-full-type value="true"/>
-        <type-file value="configs/../typemap/osmPolyconvert.typ.xml"/>
+        <type-file value="/home/ray/ms-van3t/Scenario_Generator//configs/../typemap/osmPolyconvert.typ.xml"/>
     </input>
 
     <output>
-        <output-file value="output/poly.xml"/>
+        <output-file value="/home/ray/ms-van3t/Scenario_Generator//output/poly.xml"/>
     </output>
 
     <processing>
@@ -21,7 +21,7 @@
 
     <report>
         <verbose value="true"/>
-        <log value="configs/../logs/polyconvert.log"/>
+        <log value="/home/ray/ms-van3t/Scenario_Generator//configs/../logs/polyconvert.log"/>
     </report>
 
 </configuration>

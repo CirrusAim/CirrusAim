@@ -1,0 +1,50 @@
+python3 Scenario.py 5.6322 58.8593 5.8093 58.9983 map maps
+python3 Scenario.py 5.6848 58.9338 5.7054 58.9398 map maps
+cd 
+./ns3 build "src/automotive/examples/v2i-areaSpeedAdvisor-80211p"
+
+./ns3 run "src/automotive/examples/v2i-areaSpeedAdvisor-80211p"
+
+
+./ns3 run "src/automotive/examples/v2i-areaSpeedAdvisor-80211p" -- --netstate-dump-file=ray
+
+<viewsettings>
+    <scheme name = "real world" />
+    <delay value = "20" />
+<viewsettings>
+
+./ns3 run "scratch/ns2-mobility-trace --traceFile=/home/ray/CirrusAim/output/mobility.tcl --nodeNum=42 --duration=1000.0 --logFile=/home/ray/CirrusAim/logs/ns2-mob.log"
+
+
+Wrapping
+
+architecture 
+Which libraries should be interconnected 
+Basic functionality
+Time is ticking
+CAM DENM implementation--Focus
+Analytics----Metrics
+
+
+User Interface consideration
+User Interface Documentation and snapshot
+
+
+June 6
+Slides for presentation
+################################################################################3
+IMPORTANT
+python3
+
+
+#################################################################################
+Use "sudo ip link set eth1 promisc on" to set network interface card to promiscious mode b4 using app
+####################################################################################
+./ns3 run "src/automotive/examples/v2x-emulator.cc --interface=eth1" --enable-sudo
+
+######################################################################################
+std::string sumo_folder = "../Scenario_Generator/output/";
+  std::string mob_trace = "routes.rou.xml";
+  std::string sumo_config ="../Scenario_Generator/output/sumo.sumocfg";
+####################################################################################
+

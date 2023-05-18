@@ -1,9 +1,9 @@
-Parsing types from 'configs/../typemap/osmNetconvert.typ.xml' ... done.
-Parsing types from 'configs/../typemap/osmNetconvertUrbanDe.typ.xml' ... done.
-Parsing nodes from osm-file 'configs/../maps/map.osm' ... 
+Parsing types from '/home/ray/ms-van3t/Scenario_Generator//configs/../typemap/osmNetconvert.typ.xml' ... done.
+Parsing types from '/home/ray/ms-van3t/Scenario_Generator//configs/../typemap/osmNetconvertUrbanDe.typ.xml' ... done.
+Parsing nodes from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... 
 Found and substituted 11 osm nodes.
 done.
-Parsing edges from osm-file 'configs/../maps/map.osm' ... 
+Parsing edges from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... 
 Warning: The referenced geometry information (ref='265997788') is not known
 Warning: The referenced geometry information (ref='5879852172') is not known
 Warning: The referenced geometry information (ref='265997818') is not known
@@ -23,7 +23,7 @@ Warning: Discarding way '67873217' because it has only 1 node(s)
 Warning: Discarding unknown compound 'cycleway.crossing' in type 'cycleway.crossing|highway.cycleway' (first occurence for edge '91609993').
 Warning: Discarding unknown compound 'highway.cycleway' in type 'cycleway.crossing|highway.cycleway' (first occurence for edge '91609993').
 Warning: Discarding unusable type 'cycleway.crossing|highway.cycleway' (first occurence for edge '91609993').
-Parsing relations from osm-file 'configs/../maps/map.osm' ... done.
+Parsing relations from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... done.
  Import done:
    893 nodes loaded.
    29 types loaded.
@@ -41,14 +41,14 @@ Warning: Reducing junction cluster 431346083,459432461,459432462,6718390354,6718
 Warning: Reducing junction cluster 267591883,523556730,7747143451,7747143463 (6 incoming edges).
 Warning: Reducing junction cluster 431346085,6301518839,6301518845 (5 incoming edges).
 Warning: Reducing junction cluster 7208934265,7208934274,7208934276,7208934278 (5 incoming edges).
-done (10ms).
+done (3ms).
  Joined 13 junction cluster(s).
 Removing empty nodes and geometry nodes ... done (4ms).
    618 nodes removed.
-Moving network to origin ... done (8ms).
+Moving network to origin ... done (5ms).
 Computing turning directions ... 
 Warning: Ambiguity in turnarounds computation at junction 'cluster_1210802731_459432468'.
-done (2ms).
+done (1ms).
 Assigning nodes to traffic lights ... done (0ms).
 Guessing and setting on-/off-ramps ... done (0ms).
 Warning: Found sharp turn with radius 7.14 at the start of edge '-37089985#0'.
@@ -62,24 +62,24 @@ Warning: Found sharp turn with radius 2.00 at the start of edge '-685899538'.
 Warning: Found sharp turn with radius 2.93 at the start of edge '-88626531#10'.
 Warning: Found sharp turn with radius 4.25 at the end of edge '-88626531#11'.
 Warning: Found angle of 148.71 degrees at edge '61653607', segment 3.
-Sorting nodes' edges ... done (1ms).
-Computing node shapes ... done (9ms).
-Computing edge shapes ... done (10ms).
-Computing node types ... done (0ms).
+Sorting nodes' edges ... done (0ms).
+Computing node shapes ... done (8ms).
+Computing edge shapes ... done (4ms).
+Computing node types ... done (1ms).
 Guessed 0 pedestrian crossings.
 Computing priorities ... done (0ms).
 Computing approached edges ... done (0ms).
 Guessing and setting roundabouts ... 
  Guessed 2 roundabout(s).
-done (0ms).
-Computing approaching lanes ... done (10ms).
+done (1ms).
+Computing approaching lanes ... done (2ms).
 Dividing of lanes on approached lanes ... done (1ms).
-Processing turnarounds ... done (0ms).
+Processing turnarounds ... done (1ms).
 Rechecking of lane endings ... done (0ms).
 Joining traffic light nodes ... done (0ms).
 Computing traffic light control information ... done (0ms).
-Computing node logics ... done (3ms).
-Computing traffic light logics ... done (0ms).
+Computing node logics ... done (2ms).
+Computing traffic light logics ... done (1ms).
  1 traffic light(s) computed.
 Building inner edges ... 
 Warning: Speed of straight connection '-107257479_0->-341564312#4_0' reduced by 8.20 due to turning radius of 32.35 (length=12.88, angle=38.40).
@@ -90,7 +90,7 @@ Warning: Speed of straight connection '835044900#0_0->-42118295#15_0' reduced by
 Warning: Intersecting left turns at junction 'cluster_447850162_447850163' from lane '875876832_0' and lane '-38076981#2_0' (increase junction radius to avoid this).
 Warning: Intersecting left turns at junction 'cluster_459432461_6718390356' from lane '-714748691_0' and lane '-24467896#4_0' (increase junction radius to avoid this).
 Warning: Intersecting left turns at junction 'cluster_523556698_7221388437' from lane '88626530#1_0' and lane '-38746137#0_0' (increase junction radius to avoid this).
-done (9ms).
+done (8ms).
 -----------------------------------------------------
 Summary:
  Node type statistics:
@@ -104,7 +104,7 @@ Summary:
   Applied offset     : -654493.24,-6535794.19
   Converted boundary : 0.00,0.00,1205.22,689.75
 -----------------------------------------------------
-Writing network ... done (81ms).
+Writing network ... done (55ms).
 Warning: 6 total messages of type: Discarding unusable type '%' (first occurence for edge '%').
 Warning: 21 total messages of type: Discarding way '%' because it has only % node(s)
 Warning: 8 total messages of type: Found sharp turn with radius % at the end of edge '%'.

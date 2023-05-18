@@ -4,6 +4,8 @@ import requests
 import argparse
 import sumolib
 import shutil
+import config
+
 
 
 # Define the type of infrastructure you want to include in the scenario
@@ -46,26 +48,26 @@ out;
 # Send the query to the Overpass API and save the response as an XML file
 response = requests.get(overpass_url, params={'data': overpass_query})
 filename = "map.osm"
-output_folder = "maps" 
-with open(os.path.join(output_folder, filename), 'w') as f:
+output_folder = "maps"
+with open(os.path.join(config.MAPS_PATH, filename), 'w') as f:
     f.write(response.text)
 
 print(f"Data downloaded and saved as {filename}. in maps folder")
 
 
 # Convert the OSM file to a SUMO network file
-netconvert_cmd = f"netconvert -c configs/net.netcfg -o output/map.net.xml"
+netconvert_cmd = f"netconvert -c {config.CONFIGS_PATH}/net.netcfg -o {config.OUTPUT_PATH}/map.net.xml"
 subprocess.call(netconvert_cmd.split())
 
 
 # Generate polygons from OSM file
-polyconvert_cmd = f"polyconvert -c configs/poly.polycfg --net-file output/map.net.xml -o output/poly.xml"
+polyconvert_cmd = f"polyconvert -c {config.CONFIGS_PATH}/poly.polycfg --net-file {config.OUTPUT_PATH}/map.net.xml -o {config.OUTPUT_PATH}/poly.xml"
 subprocess.call(polyconvert_cmd.split())
 
 
 # Create the SUMO route file
 route_file = "routes.rou.xml"
-route_gen_cmd = f"python3 /usr/share/sumo/tools/randomTrips.py -n output/map.net.xml -r output/routes.rou.xml --prefix veh -e {NumOfVehicles}"
+route_gen_cmd = f"python3 /usr/share/sumo/tools/randomTrips.py -n {config.OUTPUT_PATH}/map.net.xml -r {config.OUTPUT_PATH}/routes.rou.xml --prefix veh -e {NumOfVehicles}"
 subprocess.call(route_gen_cmd.split())
 
 # Create the SUMO configuration file
@@ -92,7 +94,7 @@ with open(config_file, "w") as f:
 current_directory = '.'
 
 # Define the destination directory where you want to move the files
-destination_directory = 'output'
+destination_directory = config.OUTPUT_PATH
 
 # Define the names of the files you want to move
 file1 = 'sumo.sumocfg'
@@ -107,4 +109,6 @@ file2_destination_path = os.path.join(destination_directory, file2)
 # Move the files to the destination directory
 shutil.move(file1_current_path, file1_destination_path)
 shutil.move(file2_current_path, file2_destination_path)
+
+
 

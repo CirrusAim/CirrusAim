@@ -1,7 +1,7 @@
-Parsing network projection from 'output/map.net.xml' ... done (9ms).
-Parsing nodes from osm-file 'configs/../maps/map.osm' ... done (174ms).
-Parsing relations from osm-file 'configs/../maps/map.osm' ... done (99ms).
-Parsing edges from osm-file 'configs/../maps/map.osm' ... 
+Parsing network projection from '/home/ray/ms-van3t/Scenario_Generator//output/map.net.xml' ... done (14ms).
+Parsing nodes from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... done (127ms).
+Parsing relations from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... done (74ms).
+Parsing edges from osm-file '/home/ray/ms-van3t/Scenario_Generator//configs/../maps/map.osm' ... 
 Warning: The referenced geometry information (ref='265997788') is not known
 Warning: The referenced geometry information (ref='5879852172') is not known
 Warning: The referenced geometry information (ref='265997818') is not known
@@ -2154,4 +2154,4 @@ Warning: The referenced geometry information (ref='10024988930') is not known
 Warning: The referenced geometry information (ref='385875483') is not known
 Warning: The referenced geometry information (ref='447850160') is not known
 Warning: The referenced geometry information (ref='10747920636') is not known
-done (676ms).
+done (294ms).

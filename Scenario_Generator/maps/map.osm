@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.60 f4c14d41">
+<osm version="0.6" generator="Overpass API 0.7.60.2 e4cf9f7a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-05-12T04:19:24Z"/>
+<meta osm_base="2023-05-18T11:09:39Z"/>
 
   <node id="10854183" lat="58.9341817" lon="5.6972113"/>
   <node id="10854184" lat="58.9345365" lon="5.6964326"/>
@@ -14829,6 +14829,150 @@
     <tag k="antenna" v="guywirefix"/>
     <tag k="note" v="probably demolished"/>
   </node>
+  <node id="10900313072" lat="58.9354112" lon="5.7023868"/>
+  <node id="10900313073" lat="58.9354000" lon="5.7023651"/>
+  <node id="10900313074" lat="58.9353086" lon="5.7018980"/>
+  <node id="10900313075" lat="58.9354110" lon="5.7019961"/>
+  <node id="10900313076" lat="58.9354370" lon="5.7022246"/>
+  <node id="10900313077" lat="58.9352161" lon="5.7026303"/>
+  <node id="10900313078" lat="58.9351260" lon="5.7027753"/>
+  <node id="10900313079" lat="58.9354248" lon="5.7023604"/>
+  <node id="10900313080" lat="58.9353745" lon="5.7026328"/>
+  <node id="10900313081" lat="58.9352947" lon="5.7024738"/>
+  <node id="10900313082" lat="58.9352416" lon="5.7026800"/>
+  <node id="10900313083" lat="58.9353702" lon="5.7020873"/>
+  <node id="10900313084" lat="58.9352443" lon="5.7025335"/>
+  <node id="10900313085" lat="58.9352685" lon="5.7025278"/>
+  <node id="10900313086" lat="58.9353054" lon="5.7019427"/>
+  <node id="10900313087" lat="58.9353956" lon="5.7023643"/>
+  <node id="10900313088" lat="58.9352959" lon="5.7027852"/>
+  <node id="10900313089" lat="58.9353215" lon="5.7025173"/>
+  <node id="10900313090" lat="58.9351920" lon="5.7026475"/>
+  <node id="10900313091" lat="58.9353520" lon="5.7022791"/>
+  <node id="10900313092" lat="58.9353201" lon="5.7025276"/>
+  <node id="10900313093" lat="58.9352926" lon="5.7027904"/>
+  <node id="10900313094" lat="58.9353713" lon="5.7020721"/>
+  <node id="10900313095" lat="58.9353716" lon="5.7020972"/>
+  <node id="10900313096" lat="58.9353295" lon="5.7024914"/>
+  <node id="10900313097" lat="58.9352596" lon="5.7024602"/>
+  <node id="10900313098" lat="58.9353351" lon="5.7018472"/>
+  <node id="10900313099" lat="58.9353782" lon="5.7020742"/>
+  <node id="10900313100" lat="58.9352131" lon="5.7029443"/>
+  <node id="10900313101" lat="58.9353077" lon="5.7024488"/>
+  <node id="10900313102" lat="58.9353177" lon="5.7021888"/>
+  <node id="10900313103" lat="58.9352521" lon="5.7020615"/>
+  <node id="10900313104" lat="58.9353844" lon="5.7023261"/>
+  <node id="10900325705" lat="58.9353185" lon="5.7019176"/>
+  <node id="10900325706" lat="58.9352377" lon="5.7026722"/>
+  <node id="10900325707" lat="58.9354176" lon="5.7019992"/>
+  <node id="10900325708" lat="58.9352313" lon="5.7025585"/>
+  <node id="10900325709" lat="58.9353190" lon="5.7021988"/>
+  <node id="10900325710" lat="58.9352903" lon="5.7025701"/>
+  <node id="10900325711" lat="58.9352252" lon="5.7027119"/>
+  <node id="10900325712" lat="58.9352330" lon="5.7025117"/>
+  <node id="10900325713" lat="58.9352815" lon="5.7025026"/>
+  <node id="10900325714" lat="58.9352386" lon="5.7026858"/>
+  <node id="10900325715" lat="58.9354678" lon="5.7024437"/>
+  <node id="10900325716" lat="58.9353046" lon="5.7019599"/>
+  <node id="10900325717" lat="58.9354828" lon="5.7021278"/>
+  <node id="10900325718" lat="58.9352729" lon="5.7024313"/>
+  <node id="10900325719" lat="58.9354434" lon="5.7022028"/>
+  <node id="10900325720" lat="58.9352422" lon="5.7025796"/>
+  <node id="10900325721" lat="58.9353756" lon="5.7026223"/>
+  <node id="10900325722" lat="58.9340614" lon="5.7043506"/>
+  <node id="10900325723" lat="58.9343950" lon="5.7047897"/>
+  <node id="10900325724" lat="58.9344052" lon="5.7047344"/>
+  <node id="10900325725" lat="58.9343913" lon="5.7047419"/>
+  <node id="10900325726" lat="58.9340214" lon="5.7038322"/>
+  <node id="10900325727" lat="58.9345232" lon="5.7047500"/>
+  <node id="10900325728" lat="58.9340364" lon="5.7043019"/>
+  <node id="10900325729" lat="58.9343808" lon="5.7047624"/>
+  <node id="10900325730" lat="58.9343044" lon="5.7045768"/>
+  <node id="10900325731" lat="58.9342561" lon="5.7046894"/>
+  <node id="10900325732" lat="58.9344591" lon="5.7046293"/>
+  <node id="10900325733" lat="58.9340153" lon="5.7041369"/>
+  <node id="10900325734" lat="58.9346025" lon="5.7049029"/>
+  <node id="10900325735" lat="58.9340198" lon="5.7042306"/>
+  <node id="10900325736" lat="58.9340177" lon="5.7041834"/>
+  <node id="10900325737" lat="58.9343258" lon="5.7045814"/>
+  <node id="10900325738" lat="58.9344353" lon="5.7049319"/>
+  <node id="10900325739" lat="58.9345597" lon="5.7049862"/>
+  <node id="10900325740" lat="58.9340464" lon="5.7042825"/>
+  <node id="10900325741" lat="58.9341279" lon="5.7039941"/>
+  <node id="10900325742" lat="58.9340238" lon="5.7038791"/>
+  <node id="10900325743" lat="58.9344034" lon="5.7049952"/>
+  <node id="10900325744" lat="58.9341366" lon="5.7044675"/>
+  <node id="10900325745" lat="58.9343764" lon="5.7047112"/>
+  <node id="10900325746" lat="58.9340373" lon="5.7040944"/>
+  <node id="10900325747" lat="58.9341145" lon="5.7042226"/>
+  <node id="10900325748" lat="58.9344936" lon="5.7048587"/>
+  <node id="10900325749" lat="58.9341857" lon="5.7043174"/>
+  <node id="10900325750" lat="58.9341154" lon="5.7042465"/>
+  <node id="10900325751" lat="58.9341956" lon="5.7043689"/>
+  <node id="10900325752" lat="58.9343784" lon="5.7047172"/>
+  <node id="10900325753" lat="58.9341799" lon="5.7045499"/>
+  <node id="10900325754" lat="58.9343243" lon="5.7048228"/>
+  <node id="10900325755" lat="58.9340285" lon="5.7041626"/>
+  <node id="10900325756" lat="58.9345041" lon="5.7048382"/>
+  <node id="10900325757" lat="58.9340069" lon="5.7040145"/>
+  <node id="10900325758" lat="58.9343221" lon="5.7048169"/>
+  <node id="10900325759" lat="58.9341410" lon="5.7044744"/>
+  <node id="10900325760" lat="58.9340850" lon="5.7039135"/>
+  <node id="10900325761" lat="58.9340285" lon="5.7039724"/>
+  <node id="10900325762" lat="58.9344909" lon="5.7048128"/>
+  <node id="10900325763" lat="58.9342391" lon="5.7042126"/>
+  <node id="10900325764" lat="58.9343796" lon="5.7044764"/>
+  <node id="10900325765" lat="58.9340105" lon="5.7038533"/>
+  <node id="10900325766" lat="58.9340082" lon="5.7038066"/>
+  <node id="10900325767" lat="58.9341098" lon="5.7044159"/>
+  <node id="10900325768" lat="58.9345159" lon="5.7050844"/>
+  <node id="10900325769" lat="58.9340189" lon="5.7037857"/>
+  <node id="10900325770" lat="58.9341258" lon="5.7042356"/>
+  <node id="10900325771" lat="58.9340131" lon="5.7039001"/>
+  <node id="10900325772" lat="58.9344451" lon="5.7048438"/>
+  <node id="10900325773" lat="58.9340154" lon="5.7039470"/>
+  <node id="10900325774" lat="58.9343105" lon="5.7045838"/>
+  <node id="10900325775" lat="58.9342345" lon="5.7044445"/>
+  <node id="10900325776" lat="58.9342651" lon="5.7044691"/>
+  <node id="10900325777" lat="58.9341802" lon="5.7040951"/>
+  <node id="10900325778" lat="58.9340603" lon="5.7043629"/>
+  <node id="10900325779" lat="58.9343184" lon="5.7043643"/>
+  <node id="10900325780" lat="58.9340837" lon="5.7040800"/>
+  <node id="10900325781" lat="58.9340414" lon="5.7039982"/>
+  <node id="10900325782" lat="58.9343906" lon="5.7049502"/>
+  <node id="10900325783" lat="58.9342504" lon="5.7046834"/>
+  <node id="10900325784" lat="58.9344840" lon="5.7051477"/>
+  <node id="10900325785" lat="58.9340988" lon="5.7044373"/>
+  <node id="10900325786" lat="58.9342386" lon="5.7044517"/>
+  <node id="10900325787" lat="58.9341910" lon="5.7043616"/>
+  <node id="10900325788" lat="58.9344059" lon="5.7047683"/>
+  <node id="10900325789" lat="58.9340309" lon="5.7042091"/>
+  <node id="10900325790" lat="58.9341846" lon="5.7045583"/>
+  <node id="10900325791" lat="58.9340263" lon="5.7039257"/>
+  <node id="10900325792" lat="58.9347136" lon="5.7044382"/>
+  <node id="10900325793" lat="58.9346321" lon="5.7040321"/>
+  <node id="10900325794" lat="58.9345751" lon="5.7041748"/>
+  <node id="10900325795" lat="58.9347784" lon="5.7043119"/>
+  <node id="10900325796" lat="58.9345562" lon="5.7038864"/>
+  <node id="10900325797" lat="58.9344401" lon="5.7036628"/>
+  <node id="10900325798" lat="58.9347695" lon="5.7042954"/>
+  <node id="10900325799" lat="58.9344260" lon="5.7038912"/>
+  <node id="10900325800" lat="58.9345660" lon="5.7041585"/>
+  <node id="10900325801" lat="58.9344910" lon="5.7040140"/>
+  <node id="10900325802" lat="58.9343740" lon="5.7037887"/>
+  <node id="10900325803" lat="58.9345133" lon="5.7040549"/>
+  <node id="10900325804" lat="58.9346408" lon="5.7040472"/>
+  <node id="10900325805" lat="58.9345794" lon="5.7039285"/>
+  <node id="10900325806" lat="58.9346957" lon="5.7041533"/>
+  <node id="10900325807" lat="58.9347680" lon="5.7045431"/>
+  <node id="10900325808" lat="58.9348329" lon="5.7044168"/>
+  <node id="10900325809" lat="58.9347040" lon="5.7044219"/>
+  <node id="10900325810" lat="58.9346301" lon="5.7042809"/>
+  <node id="10900325811" lat="58.9347170" lon="5.7041931"/>
+  <node id="10900325812" lat="58.9344921" lon="5.7037652"/>
+  <node id="10900325813" lat="58.9346514" lon="5.7043195"/>
+  <node id="10900325814" lat="58.9345010" lon="5.7037805"/>
+  <node id="10900325815" lat="58.9344358" lon="5.7039082"/>
   <way id="24348430">
     <nd ref="264133079"/>
     <nd ref="7900625347"/>
@@ -37207,6 +37351,410 @@
     <tag k="roof:material" v="slate"/>
     <tag k="roof:shape" v="gabled"/>
     <tag k="studio" v="television"/>
+  </way>
+  <way id="1173146479">
+    <nd ref="10900325715"/>
+    <nd ref="10900325721"/>
+    <nd ref="10900313089"/>
+    <nd ref="10900313073"/>
+    <nd ref="10900313072"/>
+    <nd ref="10900313079"/>
+    <nd ref="10900325715"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146480">
+    <nd ref="10900325706"/>
+    <nd ref="10900313077"/>
+    <nd ref="10900325720"/>
+    <nd ref="10900325708"/>
+    <nd ref="10900313084"/>
+    <nd ref="10900325712"/>
+    <nd ref="10900313097"/>
+    <nd ref="10900325713"/>
+    <nd ref="10900313085"/>
+    <nd ref="10900325710"/>
+    <nd ref="10900325706"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146481">
+    <nd ref="10900325716"/>
+    <nd ref="10900313103"/>
+    <nd ref="10900313102"/>
+    <nd ref="10900313083"/>
+    <nd ref="10900325716"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146482">
+    <nd ref="10900313080"/>
+    <nd ref="10900313088"/>
+    <nd ref="10900313082"/>
+    <nd ref="10900313092"/>
+    <nd ref="10900313080"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146483">
+    <nd ref="10900325707"/>
+    <nd ref="10900325717"/>
+    <nd ref="10900325719"/>
+    <nd ref="10900313099"/>
+    <nd ref="10900325707"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146484">
+    <nd ref="10900313091"/>
+    <nd ref="10900325718"/>
+    <nd ref="10900313081"/>
+    <nd ref="10900313101"/>
+    <nd ref="10900313096"/>
+    <nd ref="10900313087"/>
+    <nd ref="10900313091"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146485">
+    <nd ref="10900313093"/>
+    <nd ref="10900313100"/>
+    <nd ref="10900313078"/>
+    <nd ref="10900313090"/>
+    <nd ref="10900325711"/>
+    <nd ref="10900325714"/>
+    <nd ref="10900313093"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146486">
+    <nd ref="10900313098"/>
+    <nd ref="10900313074"/>
+    <nd ref="10900325705"/>
+    <nd ref="10900313086"/>
+    <nd ref="10900313094"/>
+    <nd ref="10900313075"/>
+    <nd ref="10900313098"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146487">
+    <nd ref="10900313095"/>
+    <nd ref="10900313076"/>
+    <nd ref="10900313104"/>
+    <nd ref="10900325709"/>
+    <nd ref="10900313095"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146488">
+    <nd ref="10900325783"/>
+    <nd ref="10900325790"/>
+    <nd ref="10900325786"/>
+    <nd ref="10900325730"/>
+    <nd ref="10900325783"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146489">
+    <nd ref="10900325744"/>
+    <nd ref="10900325767"/>
+    <nd ref="10900325785"/>
+    <nd ref="10900325778"/>
+    <nd ref="10900325770"/>
+    <nd ref="10900325787"/>
+    <nd ref="10900325744"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146490">
+    <nd ref="10900325782"/>
+    <nd ref="10900325754"/>
+    <nd ref="10900325752"/>
+    <nd ref="10900325725"/>
+    <nd ref="10900325729"/>
+    <nd ref="10900325723"/>
+    <nd ref="10900325788"/>
+    <nd ref="10900325772"/>
+    <nd ref="10900325782"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146491">
+    <nd ref="10900325758"/>
+    <nd ref="10900325731"/>
+    <nd ref="10900325774"/>
+    <nd ref="10900325745"/>
+    <nd ref="10900325758"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146492">
+    <nd ref="10900325739"/>
+    <nd ref="10900325734"/>
+    <nd ref="10900325727"/>
+    <nd ref="10900325762"/>
+    <nd ref="10900325756"/>
+    <nd ref="10900325748"/>
+    <nd ref="10900325739"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146493">
+    <nd ref="10900325753"/>
+    <nd ref="10900325759"/>
+    <nd ref="10900325751"/>
+    <nd ref="10900325775"/>
+    <nd ref="10900325753"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146494">
+    <nd ref="10900325768"/>
+    <nd ref="10900325784"/>
+    <nd ref="10900325743"/>
+    <nd ref="10900325738"/>
+    <nd ref="10900325768"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146495">
+    <nd ref="10900325724"/>
+    <nd ref="10900325732"/>
+    <nd ref="10900325764"/>
+    <nd ref="10900325737"/>
+    <nd ref="10900325724"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146496">
+    <nd ref="10900325747"/>
+    <nd ref="10900325757"/>
+    <nd ref="10900325761"/>
+    <nd ref="10900325773"/>
+    <nd ref="10900325791"/>
+    <nd ref="10900325771"/>
+    <nd ref="10900325742"/>
+    <nd ref="10900325765"/>
+    <nd ref="10900325726"/>
+    <nd ref="10900325766"/>
+    <nd ref="10900325769"/>
+    <nd ref="10900325760"/>
+    <nd ref="10900325781"/>
+    <nd ref="10900325780"/>
+    <nd ref="10900325741"/>
+    <nd ref="10900325777"/>
+    <nd ref="10900325747"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146497">
+    <nd ref="10900325722"/>
+    <nd ref="10900325728"/>
+    <nd ref="10900325740"/>
+    <nd ref="10900325735"/>
+    <nd ref="10900325789"/>
+    <nd ref="10900325736"/>
+    <nd ref="10900325755"/>
+    <nd ref="10900325733"/>
+    <nd ref="10900325746"/>
+    <nd ref="10900325750"/>
+    <nd ref="10900325722"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146498">
+    <nd ref="10900325776"/>
+    <nd ref="10900325749"/>
+    <nd ref="10900325763"/>
+    <nd ref="10900325779"/>
+    <nd ref="10900325776"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146499">
+    <nd ref="10900325792"/>
+    <nd ref="10900325807"/>
+    <nd ref="10900325808"/>
+    <nd ref="10900325795"/>
+    <nd ref="10900325792"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146500">
+    <nd ref="10900325794"/>
+    <nd ref="10900325810"/>
+    <nd ref="10900325806"/>
+    <nd ref="10900325804"/>
+    <nd ref="10900325794"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146501">
+    <nd ref="10900325815"/>
+    <nd ref="10900325801"/>
+    <nd ref="10900325796"/>
+    <nd ref="10900325814"/>
+    <nd ref="10900325815"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146502">
+    <nd ref="10900325802"/>
+    <nd ref="10900325799"/>
+    <nd ref="10900325812"/>
+    <nd ref="10900325797"/>
+    <nd ref="10900325802"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146503">
+    <nd ref="10900325803"/>
+    <nd ref="10900325800"/>
+    <nd ref="10900325793"/>
+    <nd ref="10900325805"/>
+    <nd ref="10900325803"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
+  </way>
+  <way id="1173146504">
+    <nd ref="10900325813"/>
+    <nd ref="10900325809"/>
+    <nd ref="10900325798"/>
+    <nd ref="10900325811"/>
+    <nd ref="10900325813"/>
+    <tag k="generator:method" v="photovoltaic"/>
+    <tag k="generator:output:electricity" v="yes"/>
+    <tag k="generator:source" v="solar"/>
+    <tag k="generator:type" v="solar_photovoltaic_panel"/>
+    <tag k="layer" v="1"/>
+    <tag k="location" v="roof"/>
+    <tag k="power" v="generator"/>
   </way>
   <relation id="384615">
     <member type="way" ref="519284239" role="outer"/>

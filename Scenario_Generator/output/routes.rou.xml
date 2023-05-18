@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-05-12 04:20:06 by Eclipse SUMO duarouter Version 1.12.0
+<!-- generated on 2023-05-18 11:10:27 by Eclipse SUMO duarouter Version 1.12.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="output/map.net.xml"/>
+        <net-file value="/home/ray/ms-van3t/Scenario_Generator//output/map.net.xml"/>
         <route-files value="trips.trips.xml"/>
     </input>
 
     <output>
-        <output-file value="output/routes.rou.xml"/>
-        <alternatives-output value="output/routes.rou.alt.xml"/>
+        <output-file value="/home/ray/ms-van3t/Scenario_Generator//output/routes.rou.xml"/>
+        <alternatives-output value="/home/ray/ms-van3t/Scenario_Generator//output/routes.rou.alt.xml"/>
     </output>
 
     <time>
