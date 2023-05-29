@@ -9,8 +9,6 @@ import os
 from sumolib import *
 
 PATH = config.APP_ROOT + 'Images//'
-PATH_NS3 = config.NS3_PATH
-NS3 = "v2x-emulator.cc"
 BACKGROUND = "grey14"
 FOREGROUND = "white"
 LINKLOCAL = "black"
@@ -21,21 +19,11 @@ FONTSIZE = "12"
 
 
 def openFolder():
-    #root = Tk()
-    #root.withdraw()
-    # config.APP_ROOT = filedialog.askdirectory(title="Select Directory")
-    # if config.APP_ROOT:
         os.system(f"xdg-open '{config.APP_ROOT}'")
-    #os.startfile(path, 'open')
-    #os.system(f"xdg-open '{config.APP_ROOT}'")
-
+    
 def ns3_run_script(): 
-       command = './ns3 run file --interface=eth1" --enable-sudo'
-       subprocess.run(command, shell=True)
-      #subprocess.run(["./ns3", "build"])
-      #subprocess.run(["./ns3", "run", config.NS3_SCRIPT], "--interface=eth1" "--enable-sudo",shell=True)
-      #subprocess.run(["./executable", "--enable-sudo"])
-
+         script = "./ns3 run src/automotive/examples/v2x-emulator.cc -- --interface=eth1"
+         subprocess.call(['xterm', '-e', 'bash', '-c', 'cd {}; {}; exec bash'.format(config.NS3_PATH, script)])  
 
 def run_script():
     lon_min = float(entry_lon_min.get())
